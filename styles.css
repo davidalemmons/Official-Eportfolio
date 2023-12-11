@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(68, 66, 66);
+    padding: 0.5em 1em;
+    width: 100%; /* Full width to extend the nav background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a{
+    color: white;
+}
+
+.Logo a,
+.Logo a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Logo img {
+    width: 100px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    padding-left: 0;
+    margin: 0; /* Remove the default margin */
+    justify-content: center; /* Center the list */
+}
+
+li {
+    padding: 0.5em 1em;
+    font-size: 24px;
+}
+
+li:hover {
+    background-color: #047a2c;
+    transform: translateY(-16px);
+    transition: 200ms;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+header, section{
+    max-width: 960px; /* Sets a max-width for the content */
+    width: 100%;
+    text-align: center;
+    margin: 1em auto; /* Centers content with automatic margins */
+}
+
+#mypic{
+    width: 160px;
+    padding: 5px;
+    border-radius: 360px;
+    background: linear-gradient(120deg, green, rgb(20, 149, 255));
+}
+
+p{
+    line-height: 2;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+/* Programing Languages Section */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the items in the section */
+    gap: 2em; /* Adds space between items */
+}
+
+section figure {
+    margin: 0; /* Removes default margin */
+    text-align: center; /* Centers the content of the figure */
+    display: flex;
+    padding-right: 20%;
+}
+
+section img {
+    width: 80px; /* Sets a standard width for all language logos */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+section img:hover {
+    transition: 200ms;
+    height: auto;
+}
+
+.squarelogo{
+    padding-bottom: 12px;
+}
+
+.squareimg{
+    padding-top: 20px;
+}
+section h2 {
+    width: 100%; /* Full width */
+}
+
+#projectlink{
+    color: black;
+}
+
+#jslogo{
+    padding-left: 16px;
+}
+
+#ghlogo {
+    width: 128px;
+}
+
+footer {
+    background-color: rgb(68, 66, 66);
+    margin: 0;
+    color: white;
+    width: 1000%; /* Full width to extend the nav background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: white;
+    padding: 12px;
+}
+
+footer a:hover{
+    background-color: #047a2c;
+    font-size: 16px;
+    transition: 200ms;
+    
+}
